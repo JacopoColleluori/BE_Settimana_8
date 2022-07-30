@@ -17,7 +17,7 @@ import javax.ws.rs.core.Response;
 import dao.ContoCorrenteDAOImpl;
 
 
-@Path("conto")
+@Path("/conto")
 
 public class Ewallet {
 	ContoCorrenteDAOImpl contoSrv=new ContoCorrenteDAOImpl();
